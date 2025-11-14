@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useState } from "react";
 import styles from "./App.module.scss";
 
-const API_ENDPOINT = "http://localhost:8000/predict";
+const API_ENDPOINT = "https://ml-back-lqsm.onrender.com/predict";
 const SHORT_TEXT_WORD_LIMIT = 35;
 
 const EMOTION_DETAILS = {
